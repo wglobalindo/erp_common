@@ -94,8 +94,7 @@ class modIncoterm extends DolibarrModules
 			'tabfieldvalue'=>array("code,libelle"), // List of fields (list of fields to edit a record)
 			'tabfieldinsert'=>array("code,libelle"), // List of fields (list of fields for insert)
 			'tabrowid'=>array("rowid"), // Name of columns with primary key (try to always name it 'rowid')
-			'tabcond'=>array($conf->incoterm->enabled),
-			'tabhelp' => array(array())
+			'tabcond'=>array($conf->incoterm->enabled)
 		);
 
 		$this->boxes = array(); // List of boxes
